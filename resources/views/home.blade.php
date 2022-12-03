@@ -1,9 +1,17 @@
+<br>
+<p>Nombre: Ester Choque Huaricallo
+    <br>
+   Carnet: 9966370
+</p>
 @extends('layouts.app')
 
 @section('admin-section')
+
     <div class="col-md-3 col-sm-6">
+    
         <a href="{{url('admin/user/create')}}">
             <div class="widget stats-widget">
+
                 <div class="widget-body clearfix bg-success">
                     <div class="pull-left">
                         <h3 class="widget-title text-white">Crear usuario</h3>
@@ -42,6 +50,7 @@
         </a>
 
     </div>
+    
 @endsection
 
 @section('agent-section')

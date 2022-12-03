@@ -177,7 +177,9 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
+        OwenIt\Auditing\AuditingServiceProvider::class,
     ],
+   
 
     /*
     |--------------------------------------------------------------------------
@@ -229,3 +231,6 @@ return [
     ],
 
 ];
+$app->configure('audit');
+return $app;
+

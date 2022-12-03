@@ -1,3 +1,8 @@
+<br>
+<p>Nombre: Ester Choque Huaricallo
+    <br>
+   Carnet: 9966370
+</p>
 @extends('layouts.app')
 
 @section('content')
